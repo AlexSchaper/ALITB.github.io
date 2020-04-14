@@ -118,6 +118,14 @@ h2{
 .container-5{
   display: flex;
   align-items: center;
-  
+
   height: 436px;
+}
+
+@media (max-width:1500px) {
+  *{
+    width: 1500px;
+    overflow: auto;
+  }
+
 }
